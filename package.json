@@ -1,23 +1,17 @@
 {
   "name": "camplife",
   "version": "0.1.0",
-  "description": "camp life countdown page",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Scherer",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rtscherer/CampLife.git"
-  },
-  "keywords": [
-    "camplife"
-  ],
-  "bugs": {
-    "url": "https://github.com/rtscherer/CampLife/issues"
-  },
-  "homepage": "https://github.com/rtscherer/CampLife#readme"
+  "license": "ISC"
 }
