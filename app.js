@@ -7,5 +7,5 @@
 //database.connect();
 
 // start the server
-var server = require('./common/server');
+var server = require('./core/server');
 server.start();
