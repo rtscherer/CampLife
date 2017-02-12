@@ -1,1 +1,1 @@
-<h1>camplife</h1>
+<h1>CampLife</h1>
