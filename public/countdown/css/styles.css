@@ -49,7 +49,7 @@ input:focus {
   background-color: #787170;
   border: 1px solid #FFF;
   opacity: 1;
-  color: #000;
+  color: #FFF;
 }
 
 .title {
