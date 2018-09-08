@@ -4,12 +4,13 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="css/countdown-clock.css" media="all" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
-			<div class="title">
+			<div id="main" class="title">
 				<h1>Camp Life</h1>
-				<h2>Coming Soon</h2>
+				<h2>Coming Soon!</h2>
 				<div id="clockdiv">
 				  <div>
 				    <span class="days"></span>
@@ -28,10 +29,35 @@
 				    <div class="smalltext">Seconds</div>
 				  </div>
 				</div>
-				<input class="form-control subscribe-text" id="inputdefault" type="text">
-				<button type="button" class="btn btn-warning subscribe-button">Subscribe</button>
+				<br />
+
+				<form class="form-inline">
+				   <div class="form-group">
+				     <label for="input-subscribe" class="sr-only">Subscribe</label>
+				     <input type="text" class="form-control input-lg col-xs-4" id="input-subscribe" placeholder="Email Address">
+				   </div>
+				   <button type="submit" class="btn btn-lg btn-warning">Subscribe</button>
+			 </form>
+
 			</div>
+			<div id="mySidenav" class="sidenav">
+			  <i href="javascript:void(0)" class="side-nav-toggle fas fa-info fa-3x" onclick="closeNav()"></i>
+				<section>
+					<p>CampLife is a brand that is meant to represent the relaxing and peaceful mentality of retreating to the mountains.</p>
+					<br />
+					<div class="social-media">
+						<p>Visit us on Social Media!</p>
+						<i class="fab fa-twitter fa-2x"></i>
+						<i class="fab fa-facebook fa-2x"></i>
+						<i class="fab fa-instagram fa-2x"></i>
+				</div>
+				</section>
+			</div>
+			<i id="icon-info" class="side-nav-toggle fas fa-info fa-3x" onclick="openNav()"></i>
+
+
 		</header>
+		<script type="text/javascript" src="js/countdown.js"></script>
 		<script type="text/javascript" src="js/countdown-clock.js"></script>
 	</body>
 </html>
